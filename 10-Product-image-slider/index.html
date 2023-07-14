@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product image slider</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-10">
+        <div class="carousel">
+          <button id="prevBtn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 19.9201L8.47997 13.4001C7.70997 12.6301 7.70997 11.3701 8.47997 10.6001L15 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></button>
+          <button id="nextBtn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></button>
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./imgs/iphone13-01.jpg" alt="iphone13-green" />
+            </div>
+            <div class="slide">
+              <img src="./imgs/iphone13-02.jpg" alt="iphone13-starlight" />
+            </div>
+            <div class="slide">
+              <img src="./imgs/iphone13-03.jpg" alt="iphone13-pink" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="items">
+          <div class="item active">
+            <img src="./imgs/iphone13-01.jpg" alt="iphone13-green" />
+          </div>
+          <div class="item">
+            <img src="./imgs/iphone13-02.jpg" alt="iphone13-starlight" />
+          </div>
+          <div class="item">
+            <img src="./imgs/iphone13-03.jpg" alt="iphone13-pink" />
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+    <script src="site.js"></script>
+  </body>
+</html>

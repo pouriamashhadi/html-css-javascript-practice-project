@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <title>TicTacToe Game</title>
+  </head>
+  <body>
+    <div class="message" id="message">نوبت بازيکن x !</div>
+
+    <div class="tictactoe-game">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <div>
+        
+        <div class="btns-grid">
+          <button class="btn btn-restart" id="btn-restart">
+            <i class="fas fa-sync"></i> بازي جديد
+          </button>
+          <button class="btn btn-quit" id="btn-quit">
+            <i class="fas fa-power-off"></i>
+            خروج
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <audio src="./click.mp3" id="click"></audio>
+    <audio src="./gameover.mp3" id="gameover"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
